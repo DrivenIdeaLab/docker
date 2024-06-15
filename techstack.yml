@@ -1,0 +1,142 @@
+repo_name: DrivenIdeaLab/docker
+report_id: 4bcea78dc49bbfe06447190c11101dd6
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-15T17:57:17+00:00'
+requested_by: actions-user
+provider: github
+branch: main
+detected_tools_count: 11
+tools:
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/docker/blob/main/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: Kelvin F. Alfaro
+  last_updated_on: 2022-07-03 16:57:51.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  version: 18.0.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/docker/blob/main/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Colin Griffin
+  last_updated_on: 2023-03-20 06:33:39.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/DrivenIdeaLab/docker/blob/main/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: Colin Griffin
+  last_updated_on: 2022-07-18 16:57:29.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/docker
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/DrivenIdeaLab/docker
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/DrivenIdeaLab/docker/blob/main/.github/workflows/create-release.yaml
+  detection_source: ".github/workflows/create-release.yaml"
+  last_updated_by: Colin Griffin
+  last_updated_on: 2023-07-04 15:29:35.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/docker/blob/main/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: Kelvin F. Alfaro
+  last_updated_on: 2022-07-03 16:57:51.000000000 Z
+- name: Visual Studio Live Share
+  description: Real-time collaborative development
+  website_url: https://code.visualstudio.com/visual-studio-live-share
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Realtime Code Collaboration
+  image_url: https://img.stackshare.io/service/7894/jEKFRPKV_400x400.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/docker/blob/main/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: Colin Griffin
+  last_updated_on: 2022-07-18 16:57:29.000000000 Z
+- name: Base
+  description: All-in-one sales and customer management platform
+  website_url: https://getbase.com/
+  open_source: false
+  hosted_saas: false
+  category: Support, Sales, and Marketing
+  sub_category: CRM
+  image_url: https://img.stackshare.io/service/3633/ZBMmmvP1_400x400.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/docker/blob/main/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: Kelvin F. Alfaro
+  last_updated_on: 2022-07-03 16:57:51.000000000 Z
+- name: Cal.com
+  description: Scheduling infrastructure for absolutely everyone
+  website_url: https://cal.com/
+  open_source: true
+  hosted_saas: false
+  category: Collaboration
+  sub_category: Meeting Scheduling
+  image_url: https://img.stackshare.io/service/25491/default_426a514d5d6625f3a742fdbc3d13c7ade992ee4c.png
+  detection_source_url: https://github.com/DrivenIdeaLab/docker/blob/main/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: Colin Griffin
+  last_updated_on: 2022-12-19 16:16:50.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/DrivenIdeaLab/docker
+  detection_source: Repo Metadata
